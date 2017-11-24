@@ -1,0 +1,55 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+MicropostsController	app/controllers/microposts_controller.rb	/^class MicropostsController < ApplicationController$/;"	c
+create	app/controllers/microposts_controller.rb	/^  def create$/;"	f	class:MicropostsController
+destroy	app/controllers/microposts_controller.rb	/^  def destroy$/;"	f	class:MicropostsController
+edit	app/controllers/microposts_controller.rb	/^  def edit$/;"	f	class:MicropostsController
+index	app/controllers/microposts_controller.rb	/^  def index$/;"	f	class:MicropostsController
+micropost_params	app/controllers/microposts_controller.rb	/^    def micropost_params$/;"	f	class:MicropostsController
+new	app/controllers/microposts_controller.rb	/^  def new$/;"	f	class:MicropostsController
+set_micropost	app/controllers/microposts_controller.rb	/^    def set_micropost$/;"	f	class:MicropostsController
+show	app/controllers/microposts_controller.rb	/^  def show$/;"	f	class:MicropostsController
+update	app/controllers/microposts_controller.rb	/^  def update$/;"	f	class:MicropostsController
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+set_user	app/controllers/users_controller.rb	/^    def set_user$/;"	f	class:UsersController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+user_params	app/controllers/users_controller.rb	/^    def user_params$/;"	f	class:UsersController
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+MicropostsHelper	app/helpers/microposts_helper.rb	/^module MicropostsHelper$/;"	m
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+Micropost	app/models/micropost.rb	/^class Micropost < ApplicationRecord$/;"	c
+User	app/models/user.rb	/^class User < ApplicationRecord$/;"	c
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:MyApp
+MyApp	config/application.rb	/^module MyApp$/;"	m
+CreateUsers	db/migrate/20171124114320_create_users.rb	/^class CreateUsers < ActiveRecord::Migration[5.1]$/;"	c
+change	db/migrate/20171124114320_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+CreateMicroposts	db/migrate/20171124122732_create_microposts.rb	/^class CreateMicroposts < ActiveRecord::Migration[5.1]$/;"	c
+change	db/migrate/20171124122732_create_microposts.rb	/^  def change$/;"	f	class:CreateMicroposts
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+MicropostsControllerTest	test/controllers/microposts_controller_test.rb	/^class MicropostsControllerTest < ActionDispatch::IntegrationTest$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionDispatch::IntegrationTest$/;"	c
+MicropostTest	test/models/micropost_test.rb	/^class MicropostTest < ActiveSupport::TestCase$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+MicropostsTest	test/system/microposts_test.rb	/^class MicropostsTest < ApplicationSystemTestCase$/;"	c
+UsersTest	test/system/users_test.rb	/^class UsersTest < ApplicationSystemTestCase$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
